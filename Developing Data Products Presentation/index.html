@@ -94,9 +94,16 @@
 
 <p>Note that the data used to train my classifer were largely questions that contained (at least) an R tag, so de-selecting the R tag may lead to less accurate predictions.</p>
 
-<h2>Slide 4: How it Works</h2>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<p>We start by reading in a randomForest model developed in analysis.R and the first row of the training dataset.</p>
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Slide 4: How it Works</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>We start by reading in a randomForest model developed in analysis.R and the first row of the training dataset.</p>
 
 <pre><code class="r">  x      &lt;- readRDS(&quot;x.rds&quot;)
   rf     &lt;- readRDS(&quot;rf.rds&quot;)
@@ -116,9 +123,16 @@
 
 <p>Then I use the UI to reactively update the values of this one row dataframe and predict an outcome.</p>
 
-<h2>Slide 5: Performance</h2>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<p>The performance of my algorithm was moderately good. With only 50 trees I had 81% accuracy. In the future I intend to integrate text mining of the question titles and bodies to boost performance.</p>
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Slide 5: Performance</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The performance of my algorithm was moderately good. With only 50 trees I had 81% accuracy. In the future I intend to integrate text mining of the question titles and bodies to boost performance.</p>
 
 <p><img src="assets/fig/unnamed-chunk-2.png" alt="plot of chunk unnamed-chunk-2"> </p>
 
@@ -140,6 +154,18 @@
       <a href="#" target="_self" rel='tooltip' 
         data-slide=2 title='Slide 2:  Data'>
          2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Slide 4: How it Works'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Slide 5: Performance'>
+         4
       </a>
     </li>
   </ul>

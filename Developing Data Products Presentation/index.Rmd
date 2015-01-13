@@ -23,7 +23,6 @@ This app predicts if you will receive an answer to your question on [Stackoverfl
 - views
 - tags
 
-![Stackoverflow User-created Logo](http://www.userlogos.org/files/logos/pek/stackoverflow.png)
 
 ---
 
@@ -69,6 +68,4 @@ Then I use the UI to reactively update the values of this one row dataframe and 
 
 The performance of my algorithm was moderately good. With only 50 trees I had 81% accuracy. In the future I intend to integrate text mining of the question titles and bodies to boost performance.
 
-```{r, echo=FALSE}
-plot(cars)
-```
+![Stackoverflow User-created Logo](http://www.userlogos.org/files/logos/pek/stackoverflow.png)

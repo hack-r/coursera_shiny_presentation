@@ -48,6 +48,7 @@ Simply update the values in the sidepanel to reflect
 
 Note that the data used to train my classifer were largely questions that contained (at least) an R tag, so de-selecting the R tag may lead to less accurate predictions.
 
+---
 
 ## Slide 4: How it Works
 
@@ -74,6 +75,8 @@ We start by reading in a randomForest model developed in analysis.R and the firs
 ```
 
 Then I use the UI to reactively update the values of this one row dataframe and predict an outcome.
+
+---
 
 ## Slide 5: Performance
 
