@@ -35,7 +35,7 @@ To construct this algorithm I
 
 My methodology for sampling questions was to focus on questions tagged with R and to sample 50 questions from each 100 pages of questions from present to the oldest questions archived by Stackoverflow, where each page of questions contained 50 questions. 
 
--- 
+--- 
 
 ## Slide 3: Instructions
 
